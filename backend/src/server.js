@@ -5,13 +5,14 @@ const morgan = require('morgan');
 
 const app  = express();
 
-const influencerRoutes = require('./routes/influencerRoutes');
-
-app.use('/api/influencer', influencerRoutes);
 
 app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+const influencerRoutes = require('./routes/influencerRoutes');
+app.use('/api/influencer', influencerRoutes);
 
 app.get('/', (req, res) => {
     res.send('Backend is running!');
