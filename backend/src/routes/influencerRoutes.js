@@ -1,6 +1,6 @@
 const express = require('express');
 
-const getInfluencers = require('../controllers/influencerController');
+const { getInfluencers, getInfluencerById } = require('../controllers/influencerController');
 const analyzeText = require('../services/apiService');
 
 
@@ -21,6 +21,9 @@ router.post('/analyze', async (req,res) => {
     } catch (error) {
         res.status(500).json({ error: error.message})
     }
-})
+});
+
+router.get('/influencers', getInfluencers);
+router.get('/influencers/:id', getInfluencerById);
 
 module.exports = router;
