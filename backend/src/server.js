@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const influencerRoutes = require('./routes/influencerRoutes');
-app.use('/api/influencer', influencerRoutes);
+app.use('/', influencerRoutes);
 
 app.get('/', (req, res) => {
     res.send('Backend is running!');

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Jane Smith",
+        "followers": 120000,
+        "topic": "Nutrition",
+        "posts": [
+            "Kale is a great source of vitamins A, C, and K.",
+            "Drinking enough water daily helps in maintaining healthy skin.",
+            "Avocados are rich in healthy fats and great for your heart."
+        ],
+        "claims": []
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "followers": 80000,
+        "topic": "Fitness",
+        "posts": [
+            "Push-ups are a great exercise to build upper body strength.",
+            "Stretching before and after workouts helps prevent injuries.",
+            "Consistent weightlifting improves bone density over time."
+        ],
+        "claims": []
+    },
+    {
+        "id": 3,
+        "name": "Fitness Guru Mia",
+        "followers": 95000,
+        "topic": "Fitness",
+        "posts": [
+            "HIIT workouts are highly effective for burning fat quickly.",
+            "Cardio exercises like running improve heart health.",
+            "Proper form during squats is essential to avoid back injuries."
+        ],
+        "claims": []
+    },
+    {
+        "id": 4,
+        "name": "Nutritionist Alex",
+        "followers": 135000,
+        "topic": "Nutrition",
+        "posts": [
+            "Quinoa is a complete protein, making it great for vegetarians.",
+            "Consuming leafy greens daily supports digestion and detoxification.",
+            "Omega-3 fatty acids from fish help reduce inflammation."
+        ],
+        "claims": []
+    },
+    {
+        "id": 5,
+        "name": "Healthy Living by Emma",
+        "followers": 110000,
+        "topic": "Nutrition",
+        "posts": [
+            "Eating a balanced breakfast can improve focus throughout the day.",
+            "Chia seeds are a fantastic source of fiber and antioxidants.",
+            "Limit your intake of processed sugar to maintain stable energy levels."
+        ],
+        "claims": []
+    },
+    {
+        "id": 6,
+        "name": "Strength Coach Ryan",
+        "followers": 60000,
+        "topic": "Fitness",
+        "posts": [
+            "Deadlifts are one of the best exercises to build full-body strength.",
+            "Proper warm-ups can reduce muscle soreness after workouts.",
+            "Rest days are essential for muscle recovery and growth."
+        ],
+        "claims": []
+    },
+    {
+        "id": 7,
+        "name": "Dr. Wellness Amy",
+        "followers": 90000,
+        "topic": "Nutrition",
+        "posts": [
+            "Fermented foods like yogurt and kimchi support gut health.",
+            "Vitamin D is essential for strong bones and immune function.",
+            "Whole grains provide sustained energy and are rich in fiber."
+        ],
+        "claims": []
+    },
+    {
+        "id": 8,
+        "name": "Cardio Expert Leo",
+        "followers": 70000,
+        "topic": "Fitness",
+        "posts": [
+            "Cycling is an excellent low-impact exercise for all ages.",
+            "Swimming works out every major muscle group in your body.",
+            "Walking for 30 minutes a day can significantly improve mood."
+        ],
+        "claims": []
+    },
+    {
+        "id": 9,
+        "name": "Nutritionist Sara",
+        "followers": 95000,
+        "topic": "Nutrition",
+        "posts": [
+            "Bananas are a great pre-workout snack rich in potassium.",
+            "Drinking green tea can boost metabolism.",
+            "Eating smaller meals throughout the day can prevent overeating."
+        ],
+        "claims": []
+    },
+    {
+        "id": 10,
+        "name": "Functional Trainer Max",
+        "followers": 105000,
+        "topic": "Fitness",
+        "posts": [
+            "Bodyweight exercises are perfect for beginners and experts alike.",
+            "Proper breathing techniques during workouts improve endurance.",
+            "Foam rolling helps relieve tight muscles and improve mobility."
+        ],
+        "claims": []
+    }
+]
