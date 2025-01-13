@@ -36,51 +36,46 @@ const analyzeClaimsInfluencers = async (req, res) => {
     const { id } = req.params;
     const influencers = getAllInfluencers();
     const influencer = influencers.find((inf) => inf.id === Number(id));
-    // console.log("Processing influencer:", influencer);
-    // console.log("Posts:", influencer.posts);
 
-    if(!influencer) {
+    if (!influencer) {
         return res.status(404).json({ error: 'Influencer not found' });
     }
 
     try {
-        const existingHashes =influencer.claims.map((claim) => claim.hash);
+        const existingHashes = influencer.claims.map((claim) => claim.hash);
 
-        const newClaims = await Promise.all (
-            influencer.posts.map( async (post) => {
+        const newClaims = await Promise.all(
+            influencer.posts.map(async (post) => {
                 try {
-                    const analyzeClaim = await analyzeText(post.text);
-                    const hash = generateHash(analyzeClaim);
+                    const analyzedClaim = await analyzeText(post.text);
+                    const hash = generateHash(analyzedClaim.text);
 
-                    if(!existingHashes.includes(hash)) {
-
-                        return { 
-                            text: analyzeClaim, 
-                            verified: false, 
+                    if (!existingHashes.includes(hash)) {
+                        return {
+                            ...analyzedClaim,
                             hash,
                             created_at: new Date().toISOString(),
-                         };
+                        };
                     }
                 } catch (error) {
                     console.error("Error analyzing post:", post.text, error.message);
-                    return { text: post.text, verified: false, error: error.message }; // Maneja el error por post
+                    return { text: post.text, verified: false, error: error.message };
                 }
             })
         );
-        
+
         const validClaims = newClaims.filter((claim) => claim);
 
         influencer.claims = [...influencer.claims, ...validClaims];
-        console.log(" influencer:", influencer);//verificar el claim del influencer
+        console.log(" influencer:", influencer)
         updateInfluencers(influencers);
 
-        res.json( { success: true, claims: influencer.claims })
-        
+        res.json({ success: true, claims: influencer.claims });
     } catch (error) {
-        console.error('Error analyzing posts: ', error.message);
-        res.status(500).json({ error: 'failed to analyze posts' })
+        console.error('Error analyzing posts:', error.message);
+        res.status(500).json({ error: 'Failed to analyze posts' });
     }
-}
+};
 
 
 module.exports =  {getInfluencers, getInfluencerById, analyzeClaimsInfluencers};
