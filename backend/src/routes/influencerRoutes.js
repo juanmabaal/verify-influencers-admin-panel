@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { getInfluencers, getInfluencerById } = require('../controllers/influencerController');
+const { getInfluencers, getInfluencerById, analyzeClaimsInfluencers } = require('../controllers/influencerController');
 const analyzeText = require('../services/apiService');
 
 
@@ -25,5 +25,7 @@ router.post('/analyze', async (req,res) => {
 
 router.get('/influencers', getInfluencers);
 router.get('/influencers/:id', getInfluencerById);
+
+router.post('/influencers/:id/analyze-posts', analyzeClaimsInfluencers)
 
 module.exports = router;
