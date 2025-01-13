@@ -17,4 +17,4 @@ const updateInfluencers = (newData) => {
     fs.writeFileSync(dataPath, JSON.stringify(newData, null, 2), 'utf-8');
 };
 
-module.exports = getAllInfluencers, getInfluencerById, updateInfluencers;
+module.exports =  { getAllInfluencers, getInfluencerById, updateInfluencers };

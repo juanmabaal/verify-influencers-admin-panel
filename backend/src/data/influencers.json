@@ -1,122 +1,482 @@
 [
-    {
+  {
+    "id": 1,
+    "name": "Dr. Jane Smith",
+    "followers": 120000,
+    "topic": "Nutrition",
+    "posts": [
+      {
         "id": 1,
-        "name": "Dr. Jane Smith",
-        "followers": 120000,
-        "topic": "Nutrition",
-        "posts": [
-            "Kale is a great source of vitamins A, C, and K.",
-            "Drinking enough water daily helps in maintaining healthy skin.",
-            "Avocados are rich in healthy fats and great for your heart."
-        ],
-        "claims": []
-    },
-    {
+        "text": "Kale is a great source of vitamins A, C, and K.",
+        "created_at": "2023-01-01T10:00:00.000Z"
+      },
+      {
         "id": 2,
-        "name": "John Doe",
-        "followers": 80000,
-        "topic": "Fitness",
-        "posts": [
-            "Push-ups are a great exercise to build upper body strength.",
-            "Stretching before and after workouts helps prevent injuries.",
-            "Consistent weightlifting improves bone density over time."
-        ],
-        "claims": []
-    },
-    {
+        "text": "Drinking enough water daily helps in maintaining healthy skin.",
+        "created_at": "2023-01-02T10:00:00.000Z"
+      },
+      {
         "id": 3,
-        "name": "Fitness Guru Mia",
-        "followers": 95000,
-        "topic": "Fitness",
-        "posts": [
-            "HIIT workouts are highly effective for burning fat quickly.",
-            "Cardio exercises like running improve heart health.",
-            "Proper form during squats is essential to avoid back injuries."
-        ],
-        "claims": []
-    },
-    {
-        "id": 4,
-        "name": "Nutritionist Alex",
-        "followers": 135000,
-        "topic": "Nutrition",
-        "posts": [
-            "Quinoa is a complete protein, making it great for vegetarians.",
-            "Consuming leafy greens daily supports digestion and detoxification.",
-            "Omega-3 fatty acids from fish help reduce inflammation."
-        ],
-        "claims": []
-    },
-    {
-        "id": 5,
-        "name": "Healthy Living by Emma",
-        "followers": 110000,
-        "topic": "Nutrition",
-        "posts": [
-            "Eating a balanced breakfast can improve focus throughout the day.",
-            "Chia seeds are a fantastic source of fiber and antioxidants.",
-            "Limit your intake of processed sugar to maintain stable energy levels."
-        ],
-        "claims": []
-    },
-    {
-        "id": 6,
-        "name": "Strength Coach Ryan",
-        "followers": 60000,
-        "topic": "Fitness",
-        "posts": [
-            "Deadlifts are one of the best exercises to build full-body strength.",
-            "Proper warm-ups can reduce muscle soreness after workouts.",
-            "Rest days are essential for muscle recovery and growth."
-        ],
-        "claims": []
-    },
-    {
-        "id": 7,
-        "name": "Dr. Wellness Amy",
-        "followers": 90000,
-        "topic": "Nutrition",
-        "posts": [
-            "Fermented foods like yogurt and kimchi support gut health.",
-            "Vitamin D is essential for strong bones and immune function.",
-            "Whole grains provide sustained energy and are rich in fiber."
-        ],
-        "claims": []
-    },
-    {
-        "id": 8,
-        "name": "Cardio Expert Leo",
-        "followers": 70000,
-        "topic": "Fitness",
-        "posts": [
-            "Cycling is an excellent low-impact exercise for all ages.",
-            "Swimming works out every major muscle group in your body.",
-            "Walking for 30 minutes a day can significantly improve mood."
-        ],
-        "claims": []
-    },
-    {
-        "id": 9,
-        "name": "Nutritionist Sara",
-        "followers": 95000,
-        "topic": "Nutrition",
-        "posts": [
-            "Bananas are a great pre-workout snack rich in potassium.",
-            "Drinking green tea can boost metabolism.",
-            "Eating smaller meals throughout the day can prevent overeating."
-        ],
-        "claims": []
-    },
-    {
-        "id": 10,
-        "name": "Functional Trainer Max",
-        "followers": 105000,
-        "topic": "Fitness",
-        "posts": [
-            "Bodyweight exercises are perfect for beginners and experts alike.",
-            "Proper breathing techniques during workouts improve endurance.",
-            "Foam rolling helps relieve tight muscles and improve mobility."
-        ],
-        "claims": []
-    }
+        "text": "Avocados are rich in healthy fats and great for your heart.",
+        "created_at": "2023-01-03T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "followers": 80000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Push-ups are a great exercise to build upper body strength.",
+        "created_at": "2023-01-04T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Stretching before and after workouts helps prevent injuries.",
+        "created_at": "2023-01-05T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Consistent weightlifting improves bone density over time.",
+        "created_at": "2023-01-06T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 3,
+    "name": "Fitness Guru Mia",
+    "followers": 95000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "HIIT workouts are highly effective for burning fat quickly.",
+        "created_at": "2023-01-07T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Cardio exercises like running improve heart health.",
+        "created_at": "2023-01-08T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Proper form during squats is essential to avoid back injuries.",
+        "created_at": "2023-01-09T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 4,
+    "name": "Nutritionist Alex",
+    "followers": 135000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Quinoa is a complete protein, making it great for vegetarians.",
+        "created_at": "2023-01-10T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Consuming leafy greens daily supports digestion and detoxification.",
+        "created_at": "2023-01-11T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Omega-3 fatty acids from fish help reduce inflammation.",
+        "created_at": "2023-01-12T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 5,
+    "name": "Healthy Living by Emma",
+    "followers": 110000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Eating a balanced breakfast can improve focus throughout the day.",
+        "created_at": "2023-01-13T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Chia seeds are a fantastic source of fiber and antioxidants.",
+        "created_at": "2023-01-14T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Limit your intake of processed sugar to maintain stable energy levels.",
+        "created_at": "2023-01-15T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 6,
+    "name": "Strength Coach Ryan",
+    "followers": 60000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Deadlifts are one of the best exercises to build full-body strength.",
+        "created_at": "2023-01-16T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Proper warm-ups can reduce muscle soreness after workouts.",
+        "created_at": "2023-01-17T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Rest days are essential for muscle recovery and growth.",
+        "created_at": "2023-01-18T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 7,
+    "name": "Dr. Wellness Amy",
+    "followers": 90000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Fermented foods like yogurt and kimchi support gut health.",
+        "created_at": "2023-01-19T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Vitamin D is essential for strong bones and immune function.",
+        "created_at": "2023-01-20T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Whole grains provide sustained energy and are rich in fiber.",
+        "created_at": "2023-01-21T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 8,
+    "name": "Cardio Expert Leo",
+    "followers": 70000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Cycling is an excellent low-impact exercise for all ages.",
+        "created_at": "2023-01-22T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Swimming works out every major muscle group in your body.",
+        "created_at": "2023-01-23T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Walking for 30 minutes a day can significantly improve mood.",
+        "created_at": "2023-01-24T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 9,
+    "name": "Nutritionist Sara",
+    "followers": 95000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Bananas are a great pre-workout snack rich in potassium.",
+        "created_at": "2023-01-25T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Drinking green tea can boost metabolism.",
+        "created_at": "2023-01-26T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Eating smaller meals throughout the day can prevent overeating.",
+        "created_at": "2023-01-27T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 10,
+    "name": "Functional Trainer Max",
+    "followers": 105000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Bodyweight exercises are perfect for beginners and experts alike.",
+        "created_at": "2023-01-28T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Proper breathing techniques during workouts improve endurance.",
+        "created_at": "2023-01-29T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Foam rolling helps relieve tight muscles and improve mobility.",
+        "created_at": "2023-01-30T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 11,
+    "name": "Yoga Enthusiast Luna",
+    "followers": 50000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Yoga improves flexibility and relieves stress.",
+        "created_at": "2023-01-31T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Breathing exercises help manage anxiety effectively.",
+        "created_at": "2023-02-01T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Stretching daily prevents muscle stiffness.",
+        "created_at": "2023-02-02T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 12,
+    "name": "Pilates Pro Ella",
+    "followers": 68000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Pilates strengthens your core and improves posture.",
+        "created_at": "2023-02-03T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Gentle stretches can alleviate back pain effectively.",
+        "created_at": "2023-02-04T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Flexibility exercises are great for joint health.",
+        "created_at": "2023-02-05T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 13,
+    "name": "Vegan Chef Aria",
+    "followers": 90000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Plant-based diets reduce the risk of chronic diseases.",
+        "created_at": "2023-02-06T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Tofu is an excellent source of plant protein.",
+        "created_at": "2023-02-07T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Almond milk is a great alternative for lactose intolerance.",
+        "created_at": "2023-02-08T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 14,
+    "name": "Cardio King Noah",
+    "followers": 78000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Running boosts cardiovascular health and endurance.",
+        "created_at": "2023-02-09T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Jump rope is a fun way to burn calories quickly.",
+        "created_at": "2023-02-10T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Sprints are excellent for building explosive strength.",
+        "created_at": "2023-02-11T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 15,
+    "name": "Smoothie Expert Ava",
+    "followers": 72000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Berry smoothies are packed with antioxidants.",
+        "created_at": "2023-02-12T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Add spinach to your smoothies for a nutrient boost.",
+        "created_at": "2023-02-13T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Coconut water hydrates better than sugary drinks.",
+        "created_at": "2023-02-14T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 16,
+    "name": "Weightlifting Champ Max",
+    "followers": 83000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Compound lifts build functional strength.",
+        "created_at": "2023-02-15T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Progressive overload is key to muscle growth.",
+        "created_at": "2023-02-16T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Barbell squats improve lower body power.",
+        "created_at": "2023-02-17T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 17,
+    "name": "Juicing Guru Mia",
+    "followers": 69000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Fresh juices detox your system effectively.",
+        "created_at": "2023-02-18T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Carrot juice improves vision and skin health.",
+        "created_at": "2023-02-19T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Beet juice enhances endurance for workouts.",
+        "created_at": "2023-02-20T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 18,
+    "name": "Mindful Eating Coach Leo",
+    "followers": 75000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Eating slowly improves digestion.",
+        "created_at": "2023-02-21T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Portion control prevents overeating.",
+        "created_at": "2023-02-22T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Mindful eating reduces stress-related cravings.",
+        "created_at": "2023-02-23T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 19,
+    "name": "Meditation Advocate Zara",
+    "followers": 70000,
+    "topic": "Fitness",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Meditation lowers blood pressure effectively.",
+        "created_at": "2023-02-24T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Daily mindfulness enhances mental clarity.",
+        "created_at": "2023-02-25T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Guided meditations reduce anxiety symptoms.",
+        "created_at": "2023-02-26T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  },
+  {
+    "id": 20,
+    "name": "Holistic Healer Nina",
+    "followers": 88000,
+    "topic": "Nutrition",
+    "posts": [
+      {
+        "id": 1,
+        "text": "Herbal teas calm your nerves and aid sleep.",
+        "created_at": "2023-02-27T10:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "text": "Honey and lemon soothe sore throats naturally.",
+        "created_at": "2023-02-28T10:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "text": "Turmeric milk reduces inflammation effectively.",
+        "created_at": "2023-03-01T10:00:00.000Z"
+      }
+    ],
+    "claims": []
+  }
 ]
