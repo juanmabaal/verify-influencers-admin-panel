@@ -23,9 +23,6 @@ app.get('/api/test', (req, res) => {
     res.json({ message: 'This is a test endpoint' })
 })
 
-const xApiRoutes = require('./routes/xApiRoutes');
-app.use('/api', xApiRoutes);
-
 
 const PORT = process.env.PORT || 5000;
 app.listen (PORT, () => {

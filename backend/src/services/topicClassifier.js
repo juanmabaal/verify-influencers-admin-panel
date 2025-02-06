@@ -50,5 +50,5 @@ const topics = {
     return "Uncategorized";
   };
   
-  export default determineTopic;
+  module.exports = { determineTopic };
   

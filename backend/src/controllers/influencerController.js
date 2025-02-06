@@ -1,15 +1,27 @@
 
-const { getAllInfluencers, updateInfluencers } = require('../services/dataService');
+const { getStructuredInfluencers, getInfluencerByIdFromData, updateInfluencers } = require('../services/dataService');
+const { fetchRecentTweets } = require('../services/xApiService');
+
 const { generateHash } = require('../services/hashService');
 const analyzeText = require('../services/apiService');
 
-const getInfluencers = (req, res) => {
+const getInfluencers = async (req, res) => {
+    const { query= 'health', maxResults = 10} = req.query
+
     try {
-        const influencers = getAllInfluencers();
-        res.json(influencers);
+
+        // const influencers = await fetchRecentTweets(query, maxResults);
+        const influencers = getStructuredInfluencers();
+        res.status(200).json(
+            influencers,
+          );
+
     } catch (error) {
-        console.error('Error fetching influencers: ', error.message);
-        res.status(500).json({ error: 'Failed to fetch influencers'});
+        console.error('Error in getStructuredInfluencers: ', error.message);
+        res.status(500).json({
+            success: false,
+            error: "Failed to fetch health claims tweets",
+          });
     }
 };
 
@@ -17,15 +29,14 @@ const getInfluencerById = (req, res) => {
     const { id } = req.params;
 
     try {
-        const influencers = getAllInfluencers();
 
-        const influencer = influencers.find((inf) => inf.id === Number(id));
+        const influencerById= getInfluencerByIdFromData(id);
 
-        if(!influencer) {
+        if(!influencerById) {
             return res.status(404).json({ error: 'Influencer not found' });
         }
 
-        res.json(influencer);
+        res.json(influencerById);
     } catch (error) {
         console.error('Error fetching influencer: ', error.message);
         res.status(500).json({ error: 'Failed to fetch influencer' });
@@ -34,20 +45,24 @@ const getInfluencerById = (req, res) => {
 
 const analyzeClaimsInfluencers = async (req, res) => {
     const { id } = req.params;
-    const influencers = getAllInfluencers();
-    const influencer = influencers.find((inf) => inf.id === Number(id));
 
-    if (!influencer) {
+    let influencers = getStructuredInfluencers();
+
+    let influencerIndex = influencers.findIndex((inf) => inf.id === id);
+    
+    if (influencerIndex === -1) {
         return res.status(404).json({ error: 'Influencer not found' });
     }
+
+    let influencer = influencers[influencerIndex];
 
     try {
         const existingHashes = influencer.claims.map((claim) => claim.hash);
 
         const newClaims = await Promise.all(
-            influencer.posts.map(async (post) => {
+            influencer.tweets.map(async (tweet) => {
                 try {
-                    const analyzedClaim = await analyzeText(post.text);
+                    const analyzedClaim = await analyzeText(tweet.text);
                     const hash = generateHash(analyzedClaim.text);
 
                     if (!existingHashes.includes(hash)) {
@@ -58,24 +73,27 @@ const analyzeClaimsInfluencers = async (req, res) => {
                         };
                     }
                 } catch (error) {
-                    console.error("Error analyzing post:", post.text, error.message);
-                    return { text: post.text, verified: false, error: error.message };
+                    console.error("Error analyzing post:", tweet.text, error.message);
+                    return { text: tweet.text, verified: false, error: error.message };
                 }
             })
         );
 
         const validClaims = newClaims.filter((claim) => claim);
 
-        influencer.claims = [...influencer.claims, ...validClaims];
-        console.log(" influencer:", influencer)
+        // Actualizar el objeto en el array principal
+        influencers[influencerIndex].claims = [...influencer.claims, ...validClaims];
+
         updateInfluencers(influencers);
 
-        res.json({ success: true, claims: influencer.claims });
+        res.json({ success: true, claims: influencers[influencerIndex].claims });
+
     } catch (error) {
         console.error('Error analyzing posts:', error.message);
         res.status(500).json({ error: 'Failed to analyze posts' });
     }
 };
+
 
 
 module.exports =  {getInfluencers, getInfluencerById, analyzeClaimsInfluencers};
