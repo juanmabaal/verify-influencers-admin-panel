@@ -6,7 +6,7 @@ const analyzeText = require('../services/apiService');
 
 const router = express.Router();
 
-router.get('/', getInfluencers);
+// router.get('/', getInfluencers);
 
 router.post('/analyze', async (req,res) => {
     const { text } = req.body;

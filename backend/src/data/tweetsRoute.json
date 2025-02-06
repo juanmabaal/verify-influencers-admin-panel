@@ -1,346 +1,335 @@
- {
-    "data": [
+{
+  "data": [
+    {
+      "id": "1886918753872699442",
+      "created_at": "2025-02-04T23:24:22.000Z",
+      "text": "RT @stylet2100: @ikedanob その分割案は激しく同意します。厚労省は末端の役所の仕事を増やすことしかしませんし、イギリスの保健省(Department of Health and Social Care)は労働関係のことはやってないみたいです。\nhttps…",
+      "edit_history_tweet_ids": [
+        "1886918753872699442"
+      ],
+      "public_metrics": {
+        "retweet_count": 2,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "11588872"
+    },
+    {
+      "id": "1886918733895021042",
+      "created_at": "2025-02-04T23:24:18.000Z",
+      "text": "@thompsonian87 @bmore_talksball The only thing that makes sense why they traded Luka is they think he’s going to get worse on his health. Maybe from the injuries or maybe from getting heavier and more out of shape. They know more than we know",
+      "edit_history_tweet_ids": [
+        "1886918733895021042"
+      ],
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 1,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 1
+      },
+      "author_id": "1650017245240631296"
+    },
+    {
+      "id": "1886918731873366257",
+      "created_at": "2025-02-04T23:24:17.000Z",
+      "text": "@Men_Sex_Health And vice versa",
+      "edit_history_tweet_ids": [
+        "1886918731873366257"
+      ],
+      "public_metrics": {
+        "retweet_count": 0,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 1
+      },
+      "author_id": "384720924"
+    },
+    {
+      "id": "1886918714689245433",
+      "created_at": "2025-02-04T23:24:13.000Z",
+      "text": "RT @LifeNewsHQ: @ChrisCoons Says the guy who voted to deny health care to babies who survive abortions. Go away.",
+      "edit_history_tweet_ids": [
+        "1886918714689245433"
+      ],
+      "public_metrics": {
+        "retweet_count": 63,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "978604332106043395"
+    },
+    {
+      "id": "1886918697249390916",
+      "created_at": "2025-02-04T23:24:09.000Z",
+      "text": "RT @Eagles: Your mental health matters 💚\n\n@1kalwaysopen_ | #FlyEaglesFly https://t.co/xTsZcxhE9y",
+      "edit_history_tweet_ids": [
+        "1886918697249390916"
+      ],
+      "public_metrics": {
+        "retweet_count": 91,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "1526778350357864448",
+      "attachments": {
+        "media_keys": [
+          "13_1886910648807755776"
+        ]
+      }
+    },
+    {
+      "id": "1886918696356208826",
+      "created_at": "2025-02-04T23:24:09.000Z",
+      "text": "RT @WorldHallOfFun: @elonmusk @DOGE Wake Up America, This Is The Cost Of Voting Democrat\n\n“Gavin Newsom and California Democrats are spendi…",
+      "edit_history_tweet_ids": [
+        "1886918696356208826"
+      ],
+      "public_metrics": {
+        "retweet_count": 206,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "66114413"
+    },
+    {
+      "id": "1886918694972121505",
+      "created_at": "2025-02-04T23:24:08.000Z",
+      "text": "RT @hardlyperennial: @LucyHunterB This may have a bigger impact than Bryson. \nIt's a *health board* arguing that a Dr who is a man has chan…",
+      "edit_history_tweet_ids": [
+        "1886918694972121505"
+      ],
+      "public_metrics": {
+        "retweet_count": 151,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "797170195852853248"
+    },
+    {
+      "id": "1886918681998897332",
+      "created_at": "2025-02-04T23:24:05.000Z",
+      "text": "RT @OmegaXhealth: The Future of Health is Here.\n\n$OmegaX is LIVE.\n\nCA: FTBq3w9gCv27E451DV6w8AbUjBQbyVxxj1ZaYEYepump\n\n24/7 AI-powered health…",
+      "edit_history_tweet_ids": [
+        "1886918681998897332"
+      ],
+      "public_metrics": {
+        "retweet_count": 96,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "1372728216406867968"
+    },
+    {
+      "id": "1886918679897518564",
+      "created_at": "2025-02-04T23:24:05.000Z",
+      "text": "RT @skycorban_truth: 🚨THIS MESSAGE NEEDS TO GET OUT. \nIf this isn’t stopped now, the consequences will reach the public.  This mental healt…",
+      "edit_history_tweet_ids": [
+        "1886918679897518564"
+      ],
+      "public_metrics": {
+        "retweet_count": 19,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "1520602220303106050"
+    },
+    {
+      "id": "1886918672553484697",
+      "created_at": "2025-02-04T23:24:03.000Z",
+      "text": "RT @paulsaladinomd: @SenWarren We will indeed remember who voted \"yes\" when RFK Jr. goes after corrupt connections between the pharmaceutic…",
+      "edit_history_tweet_ids": [
+        "1886918672553484697"
+      ],
+      "public_metrics": {
+        "retweet_count": 309,
+        "reply_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 0,
+        "impression_count": 0
+      },
+      "author_id": "1700589688573083648"
+    }
+  ],
+  "includes": {
+    "users": [
       {
-        "text": "RT @Renista_: Please pray for the health of my Grandma, she's in life risk.",
-        "edit_history_tweet_ids": [
-          "1880025304120598549"
-        ],
+        "username": "daruyanagi",
+        "id": "11588872",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1486854996163391490/3uoc6IV7_normal.jpg",
+        "name": "だるやなぎ",
         "public_metrics": {
-          "retweet_count": 25,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1253027833221390338",
-        "id": "1880025304120598549",
-        "created_at": "2025-01-16T22:52:16.000Z"
+          "followers_count": 3304,
+          "following_count": 1872,
+          "tweet_count": 615797,
+          "listed_count": 163,
+          "like_count": 5656,
+          "media_count": 22948
+        }
       },
       {
-        "text": "RT @RealKiraDavis: I dare LA health to ticket and fine ppl for cleaning up their homes. I DARE THEM. PLEASE DO IT. Let all of America see y…",
-        "edit_history_tweet_ids": [
-          "1880025269941272690"
-        ],
+        "username": "SportsNMore1453",
+        "id": "1650017245240631296",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1692598739733450753/8QnXJFYI_normal.png",
+        "name": "SportsNMore",
         "public_metrics": {
-          "retweet_count": 283,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1518807895185321985",
-        "id": "1880025269941272690",
-        "created_at": "2025-01-16T22:52:08.000Z"
+          "followers_count": 962,
+          "following_count": 342,
+          "tweet_count": 25098,
+          "listed_count": 12,
+          "like_count": 13368,
+          "media_count": 5826
+        }
       },
       {
-        "text": "RT @LaurenWitzkeDE: Getting rid of Tik Tok because of “Chinese influence” is so stupid and it’s not real.\n\nMost people just go on Tik Tok t…",
-        "edit_history_tweet_ids": [
-          "1880025268569669993"
-        ],
+        "username": "boye4christ2006",
+        "id": "384720924",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1875047433735991296/e-SlBhmD_normal.jpg",
+        "name": "folowosele adeboye",
         "public_metrics": {
-          "retweet_count": 95,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1587523606816464896",
-        "id": "1880025268569669993",
-        "created_at": "2025-01-16T22:52:07.000Z"
+          "followers_count": 2286,
+          "following_count": 2372,
+          "tweet_count": 7263,
+          "listed_count": 0,
+          "like_count": 4325,
+          "media_count": 217
+        }
       },
       {
-        "text": "RT @HumanityChad: A 13-year-old set up a hot dog stand outside his home in Minnesota, which prompted a complaint to the health department.…",
-        "edit_history_tweet_ids": [
-          "1880025254942371869"
-        ],
+        "username": "_Slothzilla_",
+        "id": "978604332106043395",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1883340828728291328/SvxOuWpG_normal.jpg",
+        "name": "Slothzilla",
         "public_metrics": {
-          "retweet_count": 2,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1132678628",
-        "id": "1880025254942371869",
-        "created_at": "2025-01-16T22:52:04.000Z"
+          "followers_count": 1838,
+          "following_count": 1629,
+          "tweet_count": 3144,
+          "listed_count": 2,
+          "like_count": 717,
+          "media_count": 293
+        }
       },
       {
-        "text": "@robtoto267640 @Catface_OJK @Slatzism @MountainReach No irony. Most people's health will suffer from eating this slop. Also, I cant find any evidence of Spurlockk binge drinking. He said hasn't been sober in 30 years. This is the money quote this allegation seems to be based on, but sober, esp for those who claim to be alcoholic,… https://t.co/MrKL0luRYt https://t.co/BiaAhbIk2O",
-        "edit_history_tweet_ids": [
-          "1880025245848838303"
-        ],
-        "attachments": {
-          "media_keys": [
-            "3_1880025190362431488"
-          ]
-        },
+        "username": "EwwwAmberlyn36",
+        "id": "1526778350357864448",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1533876327182487552/N6lyXUmf_normal.jpg",
+        "name": "Lynda",
         "public_metrics": {
-          "retweet_count": 0,
-          "reply_count": 0,
-          "like_count": 1,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 1
-        },
-        "author_id": "2617811454",
-        "id": "1880025245848838303",
-        "created_at": "2025-01-16T22:52:02.000Z"
+          "followers_count": 1170,
+          "following_count": 554,
+          "tweet_count": 5254,
+          "listed_count": 3,
+          "like_count": 74584,
+          "media_count": 1138
+        }
       },
       {
-        "text": "Happy Birthday, Jaoying!\n\nWe wish you a wonderful birthday, good health and may all of your dreams come true. 🎂🩷✨\n\nFrom us,\nThaimazing Manila \n\n#JaoyingDay20th #jaoyng @jaoyngs https://t.co/SAbuzgqdzh",
-        "edit_history_tweet_ids": [
-          "1880025242594341374"
-        ],
-        "attachments": {
-          "media_keys": [
-            "3_1880025236445495296"
-          ]
-        },
+        "username": "furin27",
+        "id": "66114413",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/721743382914043904/yCHB0OyP_normal.jpg",
+        "name": "葛飾のfurin",
         "public_metrics": {
-          "retweet_count": 0,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1209367216560279552",
-        "id": "1880025242594341374",
-        "created_at": "2025-01-16T22:52:01.000Z"
+          "followers_count": 3790,
+          "following_count": 5321,
+          "tweet_count": 57913,
+          "listed_count": 12,
+          "like_count": 231577,
+          "media_count": 200
+        }
       },
       {
-        "text": "RT @lyfscraft: I know a &lt;90 iq foreign woman who is pursuing a PHD in microbiology on the governments dime. She had a psychotic episode and…",
-        "edit_history_tweet_ids": [
-          "1880025235958952033"
-        ],
+        "username": "blah_blablather",
+        "id": "797170195852853248",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1512183289397751816/u0J6Svim_normal.jpg",
+        "name": "Lady Laughingloudley",
         "public_metrics": {
-          "retweet_count": 203,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "3164900723",
-        "id": "1880025235958952033",
-        "created_at": "2025-01-16T22:52:00.000Z"
+          "followers_count": 3629,
+          "following_count": 1651,
+          "tweet_count": 157378,
+          "listed_count": 16,
+          "like_count": 281141,
+          "media_count": 4833
+        }
       },
       {
-        "text": "RT @Maria_dykisos: do your job well and take care of everything related to Felix's health because he is someone everyone wishes to have. ju…",
-        "edit_history_tweet_ids": [
-          "1880025213993472471"
-        ],
+        "username": "RedbeardAI",
+        "id": "1372728216406867968",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1882646797362835456/bqyqFIAT_normal.jpg",
+        "name": "Redbeard",
         "public_metrics": {
-          "retweet_count": 4,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1641976712002170880",
-        "id": "1880025213993472471",
-        "created_at": "2025-01-16T22:51:54.000Z"
+          "followers_count": 15527,
+          "following_count": 1670,
+          "tweet_count": 8533,
+          "listed_count": 46,
+          "like_count": 6234,
+          "media_count": 1057
+        }
       },
       {
-        "text": "RT @DarrigoMelanie: $7.3 billion stolen from cancer patients — and not one criminal charge for a health insurance executive.\n\nThis is what…",
-        "edit_history_tweet_ids": [
-          "1880025204740747648"
-        ],
+        "username": "DaRay38",
+        "id": "1520602220303106050",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1855677537596186624/8S-ioodr_normal.jpg",
+        "name": "DaRay🇺🇲❤️🤍💙🇺🇲",
         "public_metrics": {
-          "retweet_count": 6184,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1466107336234311689",
-        "id": "1880025204740747648",
-        "created_at": "2025-01-16T22:51:52.000Z"
+          "followers_count": 8523,
+          "following_count": 5717,
+          "tweet_count": 34114,
+          "listed_count": 12,
+          "like_count": 49094,
+          "media_count": 5982
+        }
       },
       {
-        "text": "NO\n\nhttps://t.co/VTttPZsbgn",
-        "edit_history_tweet_ids": [
-          "1880025193147683036"
-        ],
+        "username": "Bornagain19880",
+        "id": "1700589688573083648",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1700590085786263552/9ofj7prs_normal.jpg",
+        "name": "Born again",
         "public_metrics": {
-          "retweet_count": 0,
-          "reply_count": 0,
-          "like_count": 0,
-          "quote_count": 0,
-          "bookmark_count": 0,
-          "impression_count": 0
-        },
-        "author_id": "1511690460703727616",
-        "id": "1880025193147683036",
-        "created_at": "2025-01-16T22:51:49.000Z"
+          "followers_count": 1501,
+          "following_count": 946,
+          "tweet_count": 18716,
+          "listed_count": 6,
+          "like_count": 16958,
+          "media_count": 207
+        }
       }
     ],
-    "includes": {
-      "users": [
-        {
-          "public_metrics": {
-            "followers_count": 8216,
-            "following_count": 3369,
-            "tweet_count": 74109,
-            "listed_count": 31,
-            "like_count": 173609,
-            "media_count": 2418
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1786237997500755968/4moucwUP_normal.jpg",
-          "username": "RCAnnaKate",
-          "name": "Anna-Kate, Who Loved God Late",
-          "id": "1253027833221390338"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 1836,
-            "following_count": 2067,
-            "tweet_count": 119520,
-            "listed_count": 3,
-            "like_count": 247687,
-            "media_count": 251
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1786968245003833345/SlUPOxRB_normal.jpg",
-          "username": "Mac_0218",
-          "name": "Mac",
-          "id": "1518807895185321985"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 1970,
-            "following_count": 1822,
-            "tweet_count": 55342,
-            "listed_count": 2,
-            "like_count": 97894,
-            "media_count": 2663
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1748875233480593408/fF1lyEqz_normal.jpg",
-          "username": "Bunnyboots187",
-          "name": "Bunnyboots",
-          "id": "1587523606816464896"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 20168,
-            "following_count": 16992,
-            "tweet_count": 144566,
-            "listed_count": 99,
-            "like_count": 89636,
-            "media_count": 1057
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1044153896766246912/uS-6EXSk_normal.jpg",
-          "username": "cwatson34",
-          "name": "Charles Watson",
-          "id": "1132678628"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 536,
-            "following_count": 297,
-            "tweet_count": 19120,
-            "listed_count": 4,
-            "like_count": 11053,
-            "media_count": 3133
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1824874672476782592/cvYqEowr_normal.jpg",
-          "username": "astheravencalls",
-          "name": "The Raven's Call",
-          "id": "2617811454"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 2970,
-            "following_count": 106,
-            "tweet_count": 4654,
-            "listed_count": 11,
-            "like_count": 1492,
-            "media_count": 4022
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1796736860498309120/caP_ptNC_normal.jpg",
-          "username": "ThaimazingMNL",
-          "name": "Thaimazing Manila",
-          "id": "1209367216560279552"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 303,
-            "following_count": 926,
-            "tweet_count": 20092,
-            "listed_count": 0,
-            "like_count": 42337,
-            "media_count": 463
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1873557982379642881/e_nPhG___normal.jpg",
-          "username": "JerusalemsCross",
-          "name": "JerusalemsCross ✝️🌲🪓🏴‍☠️",
-          "id": "3164900723"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 225,
-            "following_count": 260,
-            "tweet_count": 114691,
-            "listed_count": 0,
-            "like_count": 11490,
-            "media_count": 609
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1854084797330837504/rGYIkReX_normal.jpg",
-          "username": "felixbestangel",
-          "name": "felix sunshine🤍🩵💙",
-          "id": "1641976712002170880"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 315,
-            "following_count": 943,
-            "tweet_count": 16199,
-            "listed_count": 0,
-            "like_count": 23693,
-            "media_count": 1272
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1668719817430384643/UM_Ep0x3_normal.jpg",
-          "username": "DrJL_",
-          "name": "Dr. J 💋",
-          "id": "1466107336234311689"
-        },
-        {
-          "public_metrics": {
-            "followers_count": 2609,
-            "following_count": 2851,
-            "tweet_count": 28070,
-            "listed_count": 2,
-            "like_count": 21832,
-            "media_count": 550
-          },
-          "profile_image_url": "https://pbs.twimg.com/profile_images/1511690543071432706/Sz6E2UgH_normal.jpg",
-          "username": "EarlWinter8",
-          "name": "Earl Winter",
-          "id": "1511690460703727616"
-        }
-      ],
-      "media": [
-        {
-          "media_key": "3_1880025190362431488",
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/Ghcw8yhWwAA4Kfw.jpg"
-        },
-        {
-          "media_key": "3_1880025236445495296",
-          "type": "photo",
-          "url": "https://pbs.twimg.com/media/Ghcw_eMagAAkCvk.jpg"
-        }
-      ]
-    },
-    "meta": {
-      "newest_id": "1880025304120598549",
-      "oldest_id": "1880025193147683036",
-      "result_count": 30,
-      "next_token": "b26v89c19zqg8o3frr9qf40svsjtvilb23i6hl8qwklfh"
+    "media": [
+      {
+        "media_key": "13_1886910648807755776",
+        "type": "video"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "1886918753872699442",
+    "oldest_id": "1886918672553484697",
+    "result_count": 10,
+    "next_token": "b26v89c19zqg8o3frr9sykvauojz2810r64tlu6ya0dq5"
   }
 }

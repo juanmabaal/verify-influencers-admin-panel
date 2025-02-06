@@ -7,12 +7,12 @@ const { fetchRecentTweets } = require('../services/xApiService');
 
       const tweetsData = await fetchRecentTweets(query, maxResults);
 
-      if(!tweetsData || !tweetsData.data || !tweetsData.data.length === 0) {
-        return res.status(400).json({
-          success: false,
-          message: "No tweets found for the given query",
-        })
-      }
+      // if(!tweetsData || !tweetsData.data || !tweetsData.data.length === 0) {
+      //   return res.status(400).json({
+      //     success: false,
+      //     message: "No tweets found for the given query",
+      //   })
+      // }
   
       res.status(200).json(
         tweetsData,
