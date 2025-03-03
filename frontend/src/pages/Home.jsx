@@ -1,32 +1,43 @@
 import { useEffect, useState } from "react";
+import { Grid, Typography, CircularProgress } from "@mui/material";
 import InfluencerCard from "../components/InfluencerCard";
 import apiService from "../services/apiService";
 
 const Home = () => {
 
     const [influencers, setInfluencers] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         const fetchInfluencers = async () => {
-            const data = await apiService.getInfluencers();
-            setInfluencers(data);
+            try {
+                const data = await apiService.getInfluencers();
+                setInfluencers(data);
+            } catch (error) {
+                console.error("Error fetching Influencers: ", error)
+            } finally {
+                setLoading(false);
+            }
         };
 
         fetchInfluencers();
        
     }, []);
 
-    console.log(influencers.map((influencer) => influencer.name))
 
     return (
-        <div>
-            <h1>Influencers List</h1>
-            <div className="Influencer-container">
-                { influencers.map((influencer)=> (
-                    <InfluencerCard key={influencer.id} influencer={influencer}/>
-                ))}
-            </div>
-        </div>
+        <>
+            {loading ? (
+                <CircularProgress />
+            ): (
+                <div style={{ padding:"20px" }}>
+                    <h1 style={{ color: "white", textAlign: "center" }}>Top Influencers</h1>
+                    <InfluencerCard influencers={influencers} />
+                </div>
+
+            )}
+        </>
+        
     );
 };
 
