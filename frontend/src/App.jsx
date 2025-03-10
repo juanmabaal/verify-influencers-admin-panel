@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Layout>
-        <NavBar />
+        {/* <NavBar /> */}
         <Routes>
           <Route path='/' element={<Home/>}/>
         </Routes>
