@@ -4,7 +4,7 @@ import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import Paper from '@mui/material/Paper';
 
 
-const InfluencerCard = ( { influencers }) => {
+const LeadboardTable= ( { influencers }) => {
 
     return (
         <TableContainer component={Paper} sx={{ backgroundColor:"#101820", color: "white", borderRadius: 2, overflow: "hidden"}}>
@@ -79,4 +79,4 @@ const InfluencerCard = ( { influencers }) => {
     )
 }
 
-export default InfluencerCard;
+export default LeadboardTable;
