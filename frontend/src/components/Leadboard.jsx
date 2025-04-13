@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Container, Typography } from "@mui/material";
 import apiService from "../services/apiService";
 import LeadboardStats from "./LeadboardStats";
 import LeadboardFilters from "./LeadboardFilters";
@@ -22,13 +23,17 @@ const Leadboard = () => {
         }, []);
 
     return (
-        <div>
-            <h2>Influencer Trust Leaderboard</h2>
-            <p>Real-time rankings of health influencers based on credibility and transparency.</p>
+        <Container sx={{ backgroundColor: "#0F172A", minHeight: "100vh", padding: "20px", borderRadius: "10px" }}>
+            <Typography  variant="h4" align="center" sx={{ color: "white", fontWeight: "bold", marginBottom: "20px" }}>
+                Influencer Trust Leaderboard
+            </Typography>
+            <Typography align="center" sx={{ color: "#A0AEC0", marginBottom: "30px" }}>
+                Real-time rankings of health influencers based on credibility and transparency.
+            </Typography>
             <LeadboardStats />
             <LeadboardFilters />
             <LeadboardTable influencers={influencers}/>
-        </div>
+        </Container>
     );
 }
 

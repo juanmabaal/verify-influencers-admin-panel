@@ -11,7 +11,7 @@ const LeaderboardFilters = () => {
     };
 
     return (
-        <Stack direction="row" spacing={2} sx={{ marginBottom: "20px", marginTop:"25px" }}>
+        <Stack direction="row" spacing={1} sx={{ borderRadius: "30px", marginBottom: "15px" }}>
         {categories.map((category) => (
             <Button
                 key={category}
@@ -19,9 +19,10 @@ const LeaderboardFilters = () => {
                 sx={{
                     backgroundColor: selectedCategory === category ? "#12B981" : "#757575",
                     color: "white",
+                    fontSize: "0.7rem",
                     borderRadius: "20px", 
-                    padding: "8px 16px", 
-                    minWidth: "120px", 
+                    padding: "5px 9px", 
+                    margin: "0 5px",
                     textTransform: "none", 
                     "&:hover": {
                         backgroundColor: selectedCategory === category ? "#0FA971" : "#5c5c5c",

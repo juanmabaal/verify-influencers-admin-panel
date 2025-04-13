@@ -8,12 +8,12 @@ function App() {
 
   return (
     <Router>
-      <Layout>
+      {/* <Layout> */}
         {/* <NavBar /> */}
         <Routes>
           <Route path='/' element={<Home/>}/>
         </Routes>
-      </Layout>
+      {/* </Layout> */}
     </Router>
   )
 }
